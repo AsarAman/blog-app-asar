@@ -24,7 +24,7 @@ function PostDetail({ postData }) {
           </div>
         </div>
         <div className={styles.coverImage}>
-          <Image src={imagepath} width={300} height={500} />
+          <Image alt="blog-cover-image" src={imagepath} width={300} height={500} />
         </div>
       </div>
       <ReactMarkdown className={`${styles.postHeader} ${styles.postDetails}`}>
