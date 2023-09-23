@@ -14,7 +14,7 @@ export default function Document() {
           content="web development, html, css, javascript, blog, blogging"
         />
          <meta name="author" content="Syed Asar Aman" />
-         <meta property="og:site_name" content="asar-blog.vercel.app" />
+         <meta property="og:site_name" content="blog-app-asar.vercel.app" />
          <meta
           property="og:description"
           content="Asar Blog."
