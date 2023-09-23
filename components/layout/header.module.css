@@ -1,0 +1,89 @@
+.header {
+  height: 4.5rem;
+  padding-top: 1rem;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.subscribe {
+  box-shadow: var(--box-shadow);
+}
+.subscribe:hover {
+  box-shadow: var(--inset-box-shadow);
+}
+.active {
+  color: var(--link-hover-color);
+  border-bottom: 1px solid var(--link-hover-color);
+}
+
+/** for small screens**/
+.nav {
+  background-color: var(--body-color);
+  box-shadow: var(--box-shadow);
+}
+.navHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.navToggle {
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: var(--text-color);
+  border-color: transparent;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+.navToggle:hover {
+  color: var(--link-hover-color);
+  transform: rotate(90deg);
+}
+.logo {
+  height: 40px;
+}
+.links a {
+  font-size: 1rem;
+  color: var(--text-color);
+  text-transform: capitalize;
+  display: block;
+
+  padding: 0.5rem 1rem;
+  transition: 0.3s all ease;
+}
+.links a:hover {
+  color: var(--link-hover-color);
+  padding-left: 1.5rem;
+}
+.linksContainer {
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s all ease;
+}
+.showContainer {
+  height: 10rem;
+}
+
+@media screen and (max-width: 1030px) {
+  .header {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .nav {
+    display: none;
+  }
+}

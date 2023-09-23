@@ -1,0 +1,27 @@
+.footer,
+.footerLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerLinks {
+  gap: 1.5rem;
+}
+.footer {
+  border-top: 1px solid rgba(211, 211, 211, 0.299);
+  padding: 2rem 0;
+}
+@media screen and (max-width: 738px) {
+  .footer {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .footerLinks {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .footerLinks {
+    gap: 1.25rem;
+  }
+}

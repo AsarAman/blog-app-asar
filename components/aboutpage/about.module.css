@@ -1,0 +1,56 @@
+.about{
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    padding: 5rem 1rem 0 1rem;
+    text-align: center;
+    flex-direction: column;
+
+    
+}
+.info h1{
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.info p{
+    color: var(--link-hover-color);
+    
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 1.5rem ;
+}
+@media screen and (max-width: 700px) {
+    .info h1{
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+     
+}
+@media screen and (max-width: 509px) {
+    .info h1{
+        font-size: 2rem;
+        
+    }
+     
+}
+@media screen and (max-width: 411px) {
+    .info h1{
+        font-size: 1.75rem;
+        letter-spacing: normal;
+        
+    }
+     
+}
+@media screen and (max-width: 338px) {
+    .info h1{
+        font-size: 1.5rem;
+        letter-spacing: normal;
+        
+    }
+     
+}

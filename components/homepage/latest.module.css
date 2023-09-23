@@ -1,0 +1,32 @@
+.latestBlogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.h2{
+    padding-left: 1rem;
+    margin-bottom: .7rem;
+
+}
+.black{
+    background-color: antiquewhite;
+    padding: 5rem;
+}
+@media screen and (max-width: 820px) {
+    .latestBlogs{
+      grid-template-columns: 1fr;
+      padding: 1rem;
+    }
+    
+    
+  }
+  @media screen and (min-width: 820px) {
+    .h2{
+      margin-bottom: 1.5rem;
+    
+    }
+    
+    
+  }

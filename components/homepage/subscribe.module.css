@@ -1,0 +1,87 @@
+.subscribe {
+  padding: 5rem 0;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscribe h1 {
+  letter-spacing: 2px;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.subscribe p {
+  color: var(--link-hover-color);
+
+  margin-bottom: 1rem;
+}
+.controlInput {
+  display: flex;
+
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.controlInput input {
+  height: auto;
+  min-height: 2.75rem;
+  color: #d0d5dd;
+  background-color: #101828;
+  border: 1px #344054;
+  border-radius: 50px;
+
+  padding: 1rem;
+  font-size: 1rem;
+
+  outline: none;
+  box-shadow: var(--inset-box-shadow);
+}
+.controlInput input::placeholder {
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.controlInput button {
+  padding: 0.5rem 2.5rem;
+  border-radius: 30px;
+}
+.subscribe .responseMsg {
+  margin: 1rem 0;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 700px) {
+  .subscribe h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 509px) {
+  .subscribe h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 411px) {
+  .subscribe h1 {
+    font-size: 1.75rem;
+    letter-spacing: normal;
+  }
+  .controlInput {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .controlInput button {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width: 338px) {
+  .subscribe h1 {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+  }
+}

@@ -1,0 +1,87 @@
+.postHeader {
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+.category {
+  color: var(--link-hover-color);
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
+.postTitle,
+.postHeader h1 {
+  letter-spacing: 2px;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.personalInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postContent {
+  padding: 4rem 1rem;
+}
+
+.coverImage {
+  padding: 1rem;
+  box-shadow: var(--inset-box-shadow);
+  border-radius: var(--border-radius);
+}
+
+.postHeader p {
+  letter-spacing: 1px;
+  color: var(--link-hover-color);
+
+  font-size: 12px;
+}
+.postDetails {
+  padding: 0 1rem;
+}
+.postDetails p {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+.coverImage img {
+  max-width: 100%;
+}
+@media screen and (max-width: 918px) {
+  .coverImage img {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .postTitle,
+  .postHeader h1 {
+    font-size: 2.5rem !important;
+    letter-spacing: 1px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .postTitle,
+  .postHeader h1 {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  .postTitle,
+  .postHeader h1 {
+    font-size: 1.75rem !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .postTitle,
+  .postHeader h1 {
+    font-size: 1.25rem !important;
+  }
+}

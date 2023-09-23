@@ -1,0 +1,19 @@
+.allBlogs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.section {
+  padding: 4rem 1rem 0 1rem;
+}
+.categories {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 786px) {
+  .allBlogs {
+    grid-template-columns: 1fr;
+  }
+}

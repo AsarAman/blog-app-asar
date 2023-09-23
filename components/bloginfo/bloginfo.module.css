@@ -1,0 +1,30 @@
+
+  .profile img {
+    border-radius: 50%;
+    height: 100%;
+  }
+  .created {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  .name {
+    color: var(--link-hover-color);
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  .date {
+    color: var(--link-hover-color);
+    font-weight: normal;
+    font-size: 12px;
+  }
+  .date span {
+    margin-left: 6px;
+  }
+  @media screen and (max-width: 460px) {
+    .name{
+      font-size: 12px;
+    }
+  }
