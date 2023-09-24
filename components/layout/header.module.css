@@ -1,4 +1,4 @@
-.header {
+ .header {
   height: 4.5rem;
   padding-top: 1rem;
 }
@@ -28,7 +28,14 @@
   border-bottom: 1px solid var(--link-hover-color);
 }
 
-/** for small screens**/
+
+
+
+
+
+
+
+
 .nav {
   background-color: var(--body-color);
   box-shadow: var(--box-shadow);
@@ -86,4 +93,6 @@
   .nav {
     display: none;
   }
-}
+} 
+
+
